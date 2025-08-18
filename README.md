@@ -34,3 +34,5 @@ python run.py
 
 On the first start, it will some time to download the datasets.
 Afterwards, it will start the simulation.
+
+Results will be saved in the `_outputs` directory.

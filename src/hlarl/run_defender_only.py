@@ -1,5 +1,4 @@
 import logging
-import os
 from pathlib import Path
 from typing import cast
 
@@ -7,18 +6,14 @@ import flowcean.cli
 import numpy as np
 import pandas as pd
 from flowcean.core.environment.active import ActiveEnvironment
-from flowcean.core.learner import ActiveLearner
 from flowcean.core.model import Model
 from flowcean.core.strategies.active import StopLearning
 from flowcean.mosaik.energy_system import EnergySystemActive
 from flowcean.palaestrai.sac_learner import SACLearner
 from flowcean.palaestrai.sac_model import SACModel
-from midas_palaestrai import ArlAttackerObjective, ArlDefenderObjective
+from midas_palaestrai import ArlDefenderObjective
 
-from hlarl.learner import HlArlLearner
-from hlarl.reward import (
-    calculate_reward,  # since there was error with relative import
-)
+from hlarl.reward import calculate_reward
 
 logger = logging.getLogger("run_with_hl")
 
@@ -57,11 +52,13 @@ def run_simulation() -> None:
 
     try:
         def_learner = SACLearner(
-            def_actuator_ids, def_sensor_ids, ArlDefenderObjective(),
+            def_actuator_ids,
+            def_sensor_ids,
+            ArlDefenderObjective(),
             update_after=10000,
             update_every=1000,
             batch_size=100,
-            fc_dims=(256, 256, 256)
+            fc_dims=(256, 256, 256),
         )
         def_learner.setup(environment.action, environment.observation)
 

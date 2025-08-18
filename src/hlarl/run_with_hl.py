@@ -1,28 +1,28 @@
 import logging
-import os
 from pathlib import Path
 
 import flowcean.cli
 import numpy as np
 import pandas as pd
 from flowcean.core.environment.active import ActiveEnvironment
-from flowcean.core.learner import ActiveLearner
 from flowcean.core.model import Model
-from flowcean.core.strategies.active import StopLearning, learn_active
+from flowcean.core.strategies.active import StopLearning
 from flowcean.mosaik.energy_system import EnergySystemActive
-from flowcean.palaestrai.sac_learner import SACLearner
 from midas_palaestrai import ArlDefenderObjective
 
 from hlarl.learner import HlArlLearner
-from hlarl.model import HlArlModel
 from hlarl.reward import calculate_reward
 
 logger = logging.getLogger("run_with_hl")
 
-END = 30 * 24 * 60 * 60
 
+def run_simulation(steps: int = 30 * 24 * 60) -> None:
+    """Run the simulation.
 
-def run_simulation() -> None:
+    Assuming a step size of 60 seconds.
+
+    """
+    end = steps * 60
     flowcean.cli.initialize()
 
     logger.info("Prepare paths ...")
@@ -47,7 +47,7 @@ def run_simulation() -> None:
         str(result_file),
         scenario_file=str(scenario_file),
         reward_func=calculate_reward,
-        end=END,
+        end=end,
     )
 
     logger.info("Read actuators and sensors ...")
@@ -67,7 +67,7 @@ def run_simulation() -> None:
             mapping_file=str(mapping_file),
             mapping_sw_file=str(mapping_sw_file),
             exchange_dir=str(exchange_dir),
-            ask_highleit=False,
+            ask_highleit=True,
             inference_mode=True,
         )
         learner.model.load(str(model_path / "defender_model_v2"))
