@@ -34,6 +34,7 @@ class HlArlModel(SACModel):
         mapping_sw_file: str = "",
         exchange_dir: str = "",
         ask_highleit: bool = False,
+        timeout: int = 30,
         inference_mode: bool = False,
     ) -> None:
         super().__init__(action, observation, model, start_steps)
@@ -68,6 +69,7 @@ class HlArlModel(SACModel):
         self.recommendations = pd.DataFrame()
         self.corrections = pd.DataFrame()
         self.diffs = pd.DataFrame()
+        self.timeout = timeout
 
     @override
     def predict(self, input_features: Observation) -> Action:
@@ -85,7 +87,7 @@ class HlArlModel(SACModel):
 
         self._prepare_recommendations(sensors, actuators)
 
-        if wait_for_import(self.exchange_dir, timeout=10):
+        if wait_for_import(self.exchange_dir, timeout=self.timeout):
             corrected = self._receive_corrections(sensors, actuators)
 
             action = Action(actuators=convert_to_interface(corrected))

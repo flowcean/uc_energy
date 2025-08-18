@@ -26,6 +26,7 @@ class HlArlLearner(SACLearner):
         mapping_sw_file: str = "",
         exchange_dir: str = "",
         ask_highleit: bool = False,
+        timeout: int = 30,
         inference_mode: bool = False,
     ) -> None:
         self.action = filter_action(action, self.actuator_ids)
@@ -45,6 +46,7 @@ class HlArlLearner(SACLearner):
             mapping_sw_file=mapping_sw_file,
             exchange_dir=exchange_dir,
             ask_highleit=ask_highleit,
+            timeout=timeout,
             inference_mode=inference_mode,
         )
 

@@ -16,13 +16,13 @@ from hlarl.reward import calculate_reward
 logger = logging.getLogger("run_with_hl")
 
 
-def run_simulation(steps: int = 30 * 24 * 60) -> None:
+def run_simulation(steps: int = 30 * 24 * 4, timeout=30) -> None:
     """Run the simulation.
 
-    Assuming a step size of 60 seconds.
+    Assuming a step size of 900 seconds.
 
     """
-    end = steps * 60
+    end = steps * 900
     flowcean.cli.initialize()
 
     logger.info("Prepare paths ...")
@@ -68,6 +68,7 @@ def run_simulation(steps: int = 30 * 24 * 60) -> None:
             mapping_sw_file=str(mapping_sw_file),
             exchange_dir=str(exchange_dir),
             ask_highleit=True,
+            timeout=timeout,
             inference_mode=True,
         )
         learner.model.load(str(model_path / "defender_model_v2"))
