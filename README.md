@@ -29,10 +29,10 @@ python -m pip install -e .
 With virtual environment activated run
 
 ```bash
-python run.py
+python run.py steps 10
 ``` 
 
 On the first start, it will some time to download the datasets.
-Afterwards, it will start the simulation.
+Afterwards, it will start the simulation for ten simulation steps
 
 Results will be saved in the `_outputs` directory.
