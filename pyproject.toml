@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hlarl"
+dynamic = ["version"]
+description = "Interface code for HIGH-LEIT and Adversarial Resilience Learning via flowcean."
+readme = "README.md"
+requires-python = ">=3.10"
+keywords = []
+authors = [
+    { name = "Stephan Balduin", email = "stephan.balduin@offis.de"},
+    { name = "Tejashri Bhatt", email = "tejashri.bhatt@offis.de"}
+]
+dependencies = [
+    "flowcean@git+https://github.com/flowcean/flowcean.git@main#egg=flowcean",
+    "midas-mosaik[arl]>=2.1.0a6",
+    "midas-palaestrai>=3.5.6",
+    "pysimmods>=1.0.0a3",
+    "dask[dataframe]",
+    "inotify",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "twine",
+    "pytest",
+    "coverage",
+    "ruff",
+    "jupyter",
+    "seaborn",
+]
+
+[project.urls]
+Documentation = "https://collaborating.tuhh.de/w-6/forschung/agenc/uc-energy"
+
+[tool.setuptools.dynamic]
+version = {attr = "hlarl.__version__"}
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = ["F401"]
+
+[tool.ruff]
+line-length = 79
+
+[tool.ruff.format]
+docstring-code-format = true
+skip-magic-trailing-comma = true

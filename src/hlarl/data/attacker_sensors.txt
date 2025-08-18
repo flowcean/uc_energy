@@ -1,0 +1,8 @@
+Powergrid-0.0-bus-1.p_mw
+Powergrid-0.0-bus-1.q_mvar
+Powergrid-0.0-bus-1.in_service
+Powergrid-0.0-bus-2.p_mw
+Powergrid-0.0-bus-2.q_mvar
+Powergrid-0.0-bus-2.in_service
+Powergrid-0.0-bus-1.vm_pu
+Powergrid-0.0-bus-2.vm_pu

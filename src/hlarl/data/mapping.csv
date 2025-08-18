@@ -1,0 +1,291 @@
+ppkey,b1T,b2T,b3T,b4T,b5T,twDimT
+Powergrid-0.0-ext_grid-0-0.p_mw,Station 00,110 kV,E01,Active Power P,MW,MW
+Powergrid-0.0-ext_grid-0-0.q_mvar,Station 00,110 kV,E01,Reactive Power Q,MW,Mvar
+,Station 00,110 kV,E01,Current,MW,A
+Powergrid-0.0-bus-0.vm_pu,Station 00,110 kV,E01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-trafo-0.p_hv_mw,Station 00,110 kV,E02,Active Power P,MW,MW
+Powergrid-0.0-trafo-0.q_hv_mvar,Station 00,110 kV,E02,Reactive Power Q,MW,Mvar
+Powergrid-0.0-trafo-0.i_hv_ka,Station 00,110 kV,E02,Current,MW,A
+Powergrid-0.0-trafo-0.vm_hv_pu,Station 00,110 kV,E02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-trafo-1.p_hv_mw,Station 00,110 kV,E03,Active Power P,MW,MW
+Powergrid-0.0-trafo-1.q_hv_mvar,Station 00,110 kV,E03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-trafo-1.i_hv_ka,Station 00,110 kV,E03,Current,MW,A
+Powergrid-0.0-trafo-1.vm_hv_pu,Station 00,110 kV,E03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-trafo-0.p_lv_mw,Station 01,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-trafo-0.q_lv_mvar,Station 01,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-trafo-0.i_lv_ka,Station 01,20 kV,J01,Current,MW,A
+Powergrid-0.0-trafo-0.vm_lv_pu,Station 01,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-1.p_mw,Station 01,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-1.q_mvar,Station 01,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 01,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-1.vm_pu,Station 01,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-0.p_from_mw,Station 01,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-0.q_from_mvar,Station 01,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-0.i_from_ka,Station 01,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-0.vm_from_pu,Station 01,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-0.p_to_mw,Station 02,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-0.q_to_mvar,Station 02,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-0.i_to_ka,Station 02,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-0.vm_to_pu,Station 02,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-2.p_mw,Station 02,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-2.q_mvar,Station 02,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 02,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-2.vm_pu,Station 02,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-1.p_from_mw,Station 02,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-1.q_from_mvar,Station 02,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-1.i_from_ka,Station 02,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-1.vm_from_pu,Station 02,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-1.p_to_mw,Station 03,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-1.q_to_mvar,Station 03,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-1.i_to_ka,Station 03,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-1.vm_to_pu,Station 03,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-3.p_mw,Station 03,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-3.q_mvar,Station 03,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 03,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-3.vm_pu,Station 03,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-2.p_from_mw,Station 03,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-2.q_from_mvar,Station 03,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-2.i_from_ka,Station 03,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-2.vm_from_pu,Station 03,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-9.p_from_mw,Station 03,20 kV,J04,Active Power P,MW,MW
+Powergrid-0.0-line-9.q_from_mvar,Station 03,20 kV,J04,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-9.i_from_ka,Station 03,20 kV,J04,Current,MW,A
+Powergrid-0.0-line-9.vm_from_pu,Station 03,20 kV,J04,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-2.p_to_mw,Station 04,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-2.q_to_mvar,Station 04,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-2.i_to_ka,Station 04,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-2.vm_to_pu,Station 04,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-4.p_mw,Station 04,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-4.q_mvar,Station 04,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 04,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-4.vm_pu,Station 04,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-3.p_from_mw,Station 04,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-3.q_from_mvar,Station 04,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-3.i_from_ka,Station 04,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-3.vm_from_pu,Station 04,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-13.p_to_mw,Station 04,20 kV,J04,Active Power P,MW,MW
+Powergrid-0.0-line-13.q_to_mvar,Station 04,20 kV,J04,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-13.i_to_ka,Station 04,20 kV,J04,Current,MW,A
+Powergrid-0.0-line-13.vm_to_pu,Station 04,20 kV,J04,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-3.p_to_mw,Station 05,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-3.q_to_mvar,Station 05,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-3.i_to_ka,Station 05,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-3.vm_to_pu,Station 05,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-5.p_mw,Station 05,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-5.q_mvar,Station 05,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 05,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-5.vm_pu,Station 05,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-4.p_from_mw,Station 05,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-4.q_from_mvar,Station 05,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-4.i_from_ka,Station 05,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-4.vm_from_pu,Station 05,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-12.p_from_mw,Station 06,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-12.q_from_mvar,Station 06,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-12.i_from_ka,Station 06,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-12.vm_from_pu,Station 06,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-6.p_mw,Station 06,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-6.q_mvar,Station 06,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 06,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-6.vm_pu,Station 06,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-4.p_to_mw,Station 06,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-4.q_to_mvar,Station 06,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-4.i_to_ka,Station 06,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-4.vm_to_pu,Station 06,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-5.p_from_mw,Station 07,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-5.q_from_mvar,Station 07,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-5.i_from_ka,Station 07,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-5.vm_from_pu,Station 07,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-7.p_mw,Station 07,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-7.q_mvar,Station 07,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 07,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-7.vm_pu,Station 07,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-12.p_to_mw,Station 07,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-12.q_to_mvar,Station 07,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-12.i_to_ka,Station 07,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-12.vm_to_pu,Station 07,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-9.p_to_mw,Station 08,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-9.q_to_mvar,Station 08,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-9.i_to_ka,Station 08,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-9.vm_to_pu,Station 08,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-8.p_mw,Station 08,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-8.q_mvar,Station 08,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 08,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-8.vm_pu,Station 08,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-6.p_from_mw,Station 08,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-6.q_from_mvar,Station 08,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-6.i_from_ka,Station 08,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-6.vm_from_pu,Station 08,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-5.p_to_mw,Station 08,20 kV,J04,Active Power P,MW,MW
+Powergrid-0.0-line-5.q_to_mvar,Station 08,20 kV,J04,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-5.i_to_ka,Station 08,20 kV,J04,Current,MW,A
+Powergrid-0.0-line-5.vm_to_pu,Station 08,20 kV,J04,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-14.p_to_mw,Station 08,20 kV,J05,Active Power P,MW,MW
+Powergrid-0.0-line-14.q_to_mvar,Station 08,20 kV,J05,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-14.i_to_ka,Station 08,20 kV,J05,Current,MW,A
+Powergrid-0.0-line-14.vm_to_pu,Station 08,20 kV,J05,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-7.p_from_mw,Station 09,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-7.q_from_mvar,Station 09,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-7.i_from_ka,Station 09,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-7.vm_from_pu,Station 09,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-9.p_mw,Station 09,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-9.q_mvar,Station 09,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 09,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-9.vm_pu,Station 09,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-6.p_to_mw,Station 09,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-6.q_to_mvar,Station 09,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-6.i_to_ka,Station 09,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-6.vm_to_pu,Station 09,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-8.p_from_mw,Station 10,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-8.q_from_mvar,Station 10,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-8.i_from_ka,Station 10,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-8.vm_from_pu,Station 10,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-10.p_mw,Station 10,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-10.q_mvar,Station 10,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 10,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-10.vm_pu,Station 10,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-7.p_to_mw,Station 10,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-7.q_to_mvar,Station 10,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-7.i_to_ka,Station 10,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-7.vm_to_pu,Station 10,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-13.p_from_mw,Station 11,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-13.q_from_mvar,Station 11,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-13.i_from_ka,Station 11,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-13.vm_from_pu,Station 11,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-11.p_mw,Station 11,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-11.q_mvar,Station 11,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 11,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-11.vm_pu,Station 11,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-8.p_to_mw,Station 11,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-8.q_to_mvar,Station 11,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-8.i_to_ka,Station 11,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-8.vm_to_pu,Station 11,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-trafo-1.p_lv_mw,Station 12,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-trafo-1.q_lv_mvar,Station 12,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-trafo-1.i_lv_ka,Station 12,20 kV,J01,Current,MW,A
+Powergrid-0.0-trafo-1.vm_lv_pu,Station 12,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-12.p_mw,Station 12,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-12.q_mvar,Station 12,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 12,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-12.vm_pu,Station 12,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-10.p_from_mw,Station 12,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-10.q_from_mvar,Station 12,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-10.i_from_ka,Station 12,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-10.vm_from_pu,Station 12,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-10.p_to_mw,Station 13,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-10.q_to_mvar,Station 13,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-10.i_to_ka,Station 13,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-10.vm_to_pu,Station 13,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-13.p_mw,Station 13,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-13.q_mvar,Station 13,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 13,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-13.vm_pu,Station 13,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-11.p_from_mw,Station 13,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-11.q_from_mvar,Station 13,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-11.i_from_ka,Station 13,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-11.vm_from_pu,Station 13,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-11.p_to_mw,Station 14,20 kV,J01,Active Power P,MW,MW
+Powergrid-0.0-line-11.q_to_mvar,Station 14,20 kV,J01,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-11.i_to_ka,Station 14,20 kV,J01,Current,MW,A
+Powergrid-0.0-line-11.vm_to_pu,Station 14,20 kV,J01,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-bus-14.p_mw,Station 14,20 kV,J02,Active Power P,MW,MW
+Powergrid-0.0-bus-14.q_mvar,Station 14,20 kV,J02,Reactive Power Q,MW,Mvar
+,Station 14,20 kV,J02,Current,MW,A
+Powergrid-0.0-bus-14.vm_pu,Station 14,20 kV,J02,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-line-14.p_from_mw,Station 14,20 kV,J03,Active Power P,MW,MW
+Powergrid-0.0-line-14.q_from_mvar,Station 14,20 kV,J03,Reactive Power Q,MW,Mvar
+Powergrid-0.0-line-14.i_from_ka,Station 14,20 kV,J03,Current,MW,A
+Powergrid-0.0-line-14.vm_from_pu,Station 14,20 kV,J03,verk. Spannung L1-L2,MW,kV
+Powergrid-0.0-trafo-0.vm_lv_pu,Station 01,20 kV,J01,Stufe,MW,Stufe
+Powergrid-0.0-trafo-1.vm_lv_pu,Station 12,20 kV,J01,Stufe,MW,Stufe
+,Station 01,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 01,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-1.p_mw,Station 01,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-1.q_mvar,Station 01,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 01,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 01,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 02,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 02,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-2.p_mw,Station 02,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-2.q_mvar,Station 02,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 02,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 02,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 03,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 03,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-3.p_mw,Station 03,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-3.q_mvar,Station 03,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 03,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 03,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 03,20 kV,J04,Active Power P,MW Sollvorgabe,MW
+,Station 03,20 kV,J04,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 04,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 04,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-4.p_mw,Station 04,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-4.q_mvar,Station 04,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 04,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 04,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 04,20 kV,J04,Active Power P,MW Sollvorgabe,MW
+,Station 04,20 kV,J04,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 05,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 05,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-5.p_mw,Station 05,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-5.q_mvar,Station 05,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 05,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 05,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 06,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 06,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-6.p_mw,Station 06,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-6.q_mvar,Station 06,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 06,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 06,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 07,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 07,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-7.p_mw,Station 07,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-7.q_mvar,Station 07,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 07,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 07,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 08,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 08,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-8.p_mw,Station 08,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-8.q_mvar,Station 08,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 08,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 08,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 08,20 kV,J04,Active Power P,MW Sollvorgabe,MW
+,Station 08,20 kV,J04,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 08,20 kV,J05,Active Power P,MW Sollvorgabe,MW
+,Station 08,20 kV,J05,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 09,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 09,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-9.p_mw,Station 09,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-9.q_mvar,Station 09,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 09,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 09,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 10,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 10,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-10.p_mw,Station 10,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-10.q_mvar,Station 10,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 10,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 10,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 11,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 11,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-11.p_mw,Station 11,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-11.q_mvar,Station 11,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 11,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 11,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 12,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 12,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-12.p_mw,Station 12,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-12.q_mvar,Station 12,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 12,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 12,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 13,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 13,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-13.p_mw,Station 13,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-13.q_mvar,Station 13,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 13,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 13,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 14,20 kV,J01,Active Power P,MW Sollvorgabe,MW
+,Station 14,20 kV,J01,Reactive Power Q,MW Sollvorgabe,MVar
+Powergrid-0.0-bus-14.p_mw,Station 14,20 kV,J02,Active Power P,MW Sollvorgabe,MW
+Powergrid-0.0-bus-14.q_mvar,Station 14,20 kV,J02,Reactive Power Q,MW Sollvorgabe,MVar
+,Station 14,20 kV,J03,Active Power P,MW Sollvorgabe,MW
+,Station 14,20 kV,J03,Reactive Power Q,MW Sollvorgabe,MVar

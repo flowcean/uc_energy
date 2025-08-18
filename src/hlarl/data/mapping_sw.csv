@@ -1,0 +1,54 @@
+ppkey,b1T,b2T,b3T,b4T,b5T,twAKST,default_sa,default_ml
+,Station 00,110 kV,E01,Switch,ML,Feeder,1,2
+,Station 00,110 kV,E02,Switch,ML,T121,1,2
+,Station 00,110 kV,E03,Switch,ML,T122,1,2
+,Station 01,20 kV,J01,Switch,ML,T121,1,2
+,Station 01,20 kV,J02,Switch,ML,Load,1,2
+,Station 01,20 kV,J03,Switch,ML,Station 02 20 kV J01,1,2
+,Station 02,20 kV,J01,Switch,ML,Station 01 20 kV J03,1,2
+,Station 02,20 kV,J02,Switch,ML,Load,1,2
+,Station 02,20 kV,J03,Switch,ML,Station 03 20 kV J01,1,2
+,Station 03,20 kV,J01,Switch,ML,Station 02 20 kV J03,1,2
+,Station 03,20 kV,J02,Switch,ML,Load,1,2
+,Station 03,20 kV,J03,Switch,ML,Station 04 20 kV J01,1,2
+,Station 03,20 kV,J04,Switch,ML,Station 08 20 kV J01,1,2
+,Station 04,20 kV,J01,Switch,ML,Station 03 20 kV J03,1,2
+,Station 04,20 kV,J02,Switch,ML,Load,1,2
+,Station 04,20 kV,J03,Switch,ML,Station 05 20 kV J01,1,2
+Powergrid-0.0-switch-2.closed,Station 04,20 kV,J04,Switch,ML,Station 11 20 kV J01,1,2
+,Station 05,20 kV,J01,Switch,ML,Station 04 20 kV J03,1,2
+,Station 05,20 kV,J02,Switch,ML,Load,1,2
+,Station 05,20 kV,J03,Switch,ML,Station 06 20 kV J03,1,2
+Powergrid-0.0-switch-1.closed,Station 06,20 kV,J01,Switch,ML,Station 07 20 kV J03,1,2
+,Station 06,20 kV,J02,Switch,ML,Load,1,2
+,Station 06,20 kV,J03,Switch,ML,Station 05 20 kV J03,1,2
+,Station 07,20 kV,J01,Switch,ML,Station 08 20 kV J04,1,2
+,Station 07,20 kV,J02,Switch,ML,Load,1,2
+Powergrid-0.0-switch-1.closed,Station 07,20 kV,J03,Switch,ML,Station 06 20 kV J01,0,1
+,Station 08,20 kV,J01,Switch,ML,Station 03 20 kV J04,1,2
+,Station 08,20 kV,J02,Switch,ML,Load,1,2
+,Station 08,20 kV,J03,Switch,ML,Station 09 20 kV J03,1,2
+,Station 08,20 kV,J04,Switch,ML,Station 07 20 kV J01,1,2
+Powergrid-0.0-switch-4.closed,Station 08,20 kV,J05,Switch,ML,Station 14 20 kV J03,0,1
+,Station 09,20 kV,J01,Switch,ML,Station 10 20 kV J03,1,2
+,Station 09,20 kV,J02,Switch,ML,Load,1,2
+,Station 09,20 kV,J03,Switch,ML,Station 08 20 kV J03,1,2
+,Station 10,20 kV,J01,Switch,ML,Station 11 20 kV J03,1,2
+,Station 10,20 kV,J02,Switch,ML,Load,1,2
+,Station 10,20 kV,J03,Switch,ML,Station 09 20 kV J01,1,2
+Powergrid-0.0-switch-2.closed,Station 11,20 kV,J01,Switch,ML,Station 04 20 kV J04,1,2
+,Station 11,20 kV,J02,Switch,ML,Load,1,2
+,Station 11,20 kV,J03,Switch,ML,Station 10 20 kV J01,1,2
+,Station 12,20 kV,J01,Switch,ML,T122,1,2
+,Station 12,20 kV,J02,Switch,ML,Load,1,2
+,Station 12,20 kV,J03,Switch,ML,Station 13 20 kV J01,1,2
+,Station 13,20 kV,J01,Switch,ML,Station 12 20 kV J03,1,2
+,Station 13,20 kV,J02,Switch,ML,Load,1,2
+,Station 13,20 kV,J03,Switch,ML,Station 14 20 kV J01,1,2
+,Station 14,20 kV,J01,Switch,ML,Station 13 20 kV J03,1,2
+,Station 14,20 kV,J02,Switch,ML,Load,0,1
+Powergrid-0.0-switch-4.closed,Station 14,20 kV,J03,Switch,ML,Station 08 20 kV J05,1,2
+
+
+
+

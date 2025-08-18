@@ -1,0 +1,7 @@
+Pysimmods-0.Photovoltaic-0.p_set_mw
+Pysimmods-0.Photovoltaic-0.q_set_mvar
+Pysimmods-0.WindTurbine-0.p_set_mw
+Pysimmods-0.WindTurbine-1.p_set_mw
+Pysimmods-0.HVAC-0.p_set_mw
+Pysimmods-0.HVAC-5.p_set_mw
+Pysimmods-0.Biogas-1.p_set_mw
