@@ -12,6 +12,6 @@ if __name__ == "__main__":
     steps = 10
     for i, arg in enumerate(sys.argv[1:]):
         if "steps" in arg and len(sys.argv) > i + 1:
-            steps = int(arg[i + 1])
+            steps = int(sys.argv[i + 1])
 
     main(steps)
