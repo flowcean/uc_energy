@@ -14,7 +14,7 @@ from palaestrai.agent.sensor_information import SensorInformation
 from palaestrai.types.mode import Mode
 from typing_extensions import override
 
-from hlarl.hl_export import handle_other_exports, handle_switches
+from hlarl.hl_export import handle_other_exports, handle_switches, prepare_dirs
 from hlarl.hl_import import (
     load_imports,
     translate,
@@ -101,6 +101,8 @@ class HlArlModel(SACModel):
         sensors: list[SensorInformation],
         actuators: list[ActuatorInformation],
     ) -> None:
+
+        prepare_dirs(self.exchange_dir)
         recs1 = handle_switches(
             self.mapping_sw.copy(), actuators, self.exchange_dir
         )

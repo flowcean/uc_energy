@@ -1,6 +1,9 @@
 import csv
 import logging
 import os
+import shutil
+from datetime import datetime
+from pathlib import Path
 from typing import cast
 
 import numpy as np
@@ -47,6 +50,21 @@ VIS_VALUE = "visValue"
 MW_EXPORT_FILE = "import_hlnt_mw.csv"
 SA_EXPORT_FILE = "import_hlnt_sa_sve.csv"
 ML_EXPORT_FILE = "import_hlnt_ml_sve.csv"
+
+
+def prepare_dirs(filedir: str):
+    if Path(filedir).exists():
+        archive_path = (
+            Path(filedir)
+            / f"history_{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+        )
+        for f in Path(filedir).iterdir():
+            if f.is_file():
+                Path(archive_path).mkdir(exist_ok=True)
+                shutil.move(f, Path(archive_path) / f.name)
+
+    else:
+        Path(filedir).mkdir()
 
 
 def handle_switches(
