@@ -15,10 +15,10 @@ authors = [
 ]
 dependencies = [
     "flowcean@git+https://github.com/flowcean/flowcean.git@main#egg=flowcean",
-    "midas-mosaik[arl]>=2.1.0a6",
+    "midas-mosaik[arl]>=2.1.0",
     "midas-palaestrai>=3.5.6",
     "palaestrai-agents>=3.5.4",
-    "pysimmods>=1.0.0a3",
+    "pysimmods>=1.0.0",
     "dask[dataframe]",
     "inotify",
 ]
