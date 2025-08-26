@@ -16,7 +16,9 @@ from hlarl.reward import calculate_reward
 logger = logging.getLogger("run_with_hl")
 
 
-def run_simulation(steps: int = 30 * 24 * 4, timeout=30) -> None:
+def run_simulation(
+    exchange_dir: Path, steps: int = 30 * 24 * 4, timeout=30
+) -> None:
     """Run the simulation.
 
     Assuming a step size of 900 seconds.
@@ -33,7 +35,6 @@ def run_simulation(steps: int = 30 * 24 * 4, timeout=30) -> None:
     mapping_sw_file = data_path / "mapping_sw.csv"
     sensor_file = data_path / "sensors.txt"
     actuator_file = data_path / "actuators.txt"
-    exchange_dir = Path.cwd() / "folder_to_observe"
     exchange_dir.mkdir(exist_ok=True)
     output_path = Path.cwd() / "_outputs"
     model_path = Path.cwd() / "models"
